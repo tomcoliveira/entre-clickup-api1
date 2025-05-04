@@ -1,7 +1,7 @@
 const fetch = require("node-fetch");
 
 module.exports = async (req, res) => {
-  const CLICKUP_TOKEN = process.env.CLICKUP_TOKEN;
+  const CLICKUP_TOKEN = process.env.CLICKUP_API_TOKEN;                                                            
 
   console.log("Token:", CLICKUP_TOKEN); // DEBUG: Veja se a variável está sendo lida
 
